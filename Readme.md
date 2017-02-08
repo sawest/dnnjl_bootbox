@@ -5,7 +5,7 @@ bootbox.alert("Hello world!");
 Run example
 
 Compare that to the code you’d have to write without Bootbox:
-
+'''html
 <!-- set up the modal to start hidden and fade in and out -->
 <div id="myModal" class="modal fade">
   <div class="modal-dialog">
@@ -43,6 +43,7 @@ Compare that to the code you’d have to write without Bootbox:
       "show"      : true                     // ensure the modal is shown immediately
     });
 </script>
+''
 view rawmodal.html hosted with ? by GitHub
 Overview
 
