@@ -1,0 +1,45 @@
+<dotnetnuke type="Package" version="5.0">
+  <packages>
+    <package name="bootbox" type="JavaScript_Library" version="4.4.0">
+      <friendlyName>Bootbox</friendlyName>
+      <description><![CDATA[ 
+<p>Bootbox.js is a small JavaScript library which allows you to create programmatic dialog boxes using Bootstrap modals, without having to worry about creating, managing or removing any of the required DOM elements or JS event handlers.</p>
+      ]]></description>
+      <owner>
+        <name>Steven A West</name>
+        <organization>Itawamba Community College</organization>
+        <url>http://www.iccms.edu</url>
+        <email>sawest@iccms.edu</email>
+      </owner>
+      <license src="LICENSE.md" />
+      <releaseNotes src="Readme.md" />
+      <azureCompatible>true</azureCompatible>
+      <components>
+       <component type="JavaScript_Library">
+ <javaScriptLibrary>
+            <libraryName>bootbox</libraryName>
+            <fileName>bootbox.min.js</fileName>
+            <preferredScriptLocation>BodyBottom</preferredScriptLocation>
+            <objectName>bootbox</objectName>
+          </javaScriptLibrary>
+               </component>
+<component type="JavaScriptFile">
+          <jsfiles>
+            <libraryFolderName>bootbox</libraryFolderName>
+              <jsfile>
+		<name>bootbox.min.js</name>
+		</jsfile>
+          </jsfiles>
+        </component> 
+ <component type="ResourceFile">
+          <resourceFiles>
+            <basePath>Resources\Libraries\bootbox\04_04_00</basePath>
+            <resourceFile>
+              <name>Resources.zip</name>
+            </resourceFile>
+          </resourceFiles>
+        </component>
+      </components>
+    </package>
+  </packages>
+</dotnetnuke>
